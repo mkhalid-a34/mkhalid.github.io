@@ -3,58 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mustapha Adam Khalid | Professional Portfolio</title>
+    <title>Mustapha Adam Khalid | Academic & Professional Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
             margin: 0;
             padding: 0;
-            color: #333;
-            background-color: #f9f9f9;
+            color: #2c3e50;
+            background-color: #f4f6f8;
         }
         header {
-            background-color: #1a252f;
-            color: #fff;
-            padding: 40px 20px;
+            background-color: #111827;
+            color: #ffffff;
+            padding: 50px 20px;
             text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 2.4em;
+            letter-spacing: 0.5px;
         }
         header p {
             margin: 10px 0 0;
-            font-size: 1.2em;
-            color: #bdc3c7;
+            font-size: 1.1em;
+            color: #9ca3af;
+        }
+        header .contact-info {
+            margin-top: 15px;
+            font-size: 0.95em;
+            color: #d1d5db;
+        }
+        header .contact-info span {
+            margin: 0 10px;
         }
         .container {
-            max-width: 800px;
-            margin: 30px auto;
+            max-width: 850px;
+            margin: 40px auto;
             padding: 0 20px;
         }
         section {
-            background: #fff;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background: #ffffff;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
         h2 {
-            color: #1a252f;
-            border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 8px;
+            color: #1f2937;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
             margin-top: 0;
+            font-size: 1.5em;
         }
         ul {
             padding-left: 20px;
         }
         li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
-        .project-title {
-            font-weight: bold;
-            color: #2c3e50;
+        .item-title {
+            font-weight: 600;
+            color: #111827;
+        }
+        .institution {
+            color: #4b5563;
+            font-weight: 500;
+        }
+        .meta-text {
+            font-style: italic;
+            color: #6b7280;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+        .cv-button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        .cv-button:hover {
+            background-color: #1d4ed8;
         }
     </style>
 </head>
@@ -62,43 +96,102 @@
 
     <header>
         <h1>Mustapha Adam Khalid</h1>
-        <p>Economist & Researcher</p>
+        <p>Economist & Postgraduate Research Student</p>
+        <div class="contact-info">
+            <span>Kano, Nigeria</span> | 
+            <span>akhalidm72@gmail.com</span>
+        </div>
     </header>
 
     <div class="container">
 
-        <section id="about">
+        <section id="biography">
             <h2>Biography</h2>
-            <p>I am an economist and researcher specializing in development economics, macroeconomics, and financial systems. My work focuses on investigating economic thresholds, institutional frameworks, and structural growth within emerging markets. I combine rigorous quantitative analysis with empirical evidence to address critical developmental questions and inform policy design.</p>
+            <p>I am an economist and empirical researcher specializing in development economics, macroeconomics, and financial systems[cite: 5, 30]. My primary research focus centers on financial modeling, economic growth dynamics, and public infrastructure thresholds within developing contexts[cite: 31, 33]. Driven by an interest in rigorous quantitative methodologies, I study structural constraints to help inform local and regional policymaking[cite: 15, 37]. Alongside my independent work, I actively provide research mentorship to fellow graduates, helping them navigate data analysis and structural research design[cite: 34].</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div>
+                <span class="item-title">M.Sc. in Banking and Finance</span> (In Progress) <br>
+                <span class="institution">International Institute of Banking and Finance, Bayero University Kano</span> [cite: 4, 5]
+            </div>
+            <div style="margin-top: 15px;">
+                <span class="item-title">B.Sc. in Economics</span> <br>
+                <span class="institution">Bayero University Kano</span> [cite: 6]
+                <p class="meta-text">Graduated 2021 | Second Class Upper (CGPA: 3.52 / 5.00)</p> [cite: 6, 11]
+            </div>
         </section>
 
         <section id="expertise">
-            <h2>Core Expertise & Skills</h2>
+            <h2>Technical Skills & Core Competencies</h2>
             <ul>
-                <li><strong>Econometric Analysis & Modelling:</strong> Advanced experience in panel data analysis, time-series econometrics, and System GMM estimation frameworks.</li>
-                <li><strong>Technical Proficiency:</strong> Proficient in utilizing statistical software and programming tools including Python, R, Gretl, and Microsoft Excel for data management and visualization.</li>
-                <li><strong>Research Methodologies:</strong> Skilled in structured literature mapping, empirical research design, and macro-level data triangulation.</li>
-            </ul>
-        </section>
-
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <ul>
-                <li>
-                    <strong>Geospatial Data Collector</strong> | Ideamaps Data Ecosystem
-                    <p>Contributed to data collection, structural validation, and geospatial mapping initiatives to support community-driven data frameworks and urban development planning.</p>
-                </li>
+                <li><strong>Econometric Analysis & Modeling:</strong> Practical knowledge of macro-level quantitative modeling, time-series analysis, and advanced panel frameworks such as System GMM[cite: 15].</li>
+                <li><strong>Analytical Software:</strong> Proficient in processing, clearing, and analyzing structural datasets using Python, Gretl, and Advanced Microsoft Excel[cite: 15]. Currently expanding technical competencies into SQL database structures[cite: 15].</li>
+                <li><strong>Research Support & Mentorship:</strong> Proven capability in structured literature mapping, validating empirical models, and training graduates on rigorous quantitative research designs[cite: 34].</li>
             </ul>
         </section>
 
         <section id="research">
-            <h2>Selected Research Initiatives</h2>
+            <h2>Research Initiatives</h2>
+            <div>
+                <span class="item-title">Public Debt and Infrastructural Development in Sub-Saharan Africa: Heterogeneous Threshold Effect Across Institutional Quality Dimensions</span>
+                <p class="meta-text">Ongoing Postgraduate Research Focus</p>
+                <p>This study investigates the non-linear relationship between public borrowing and long-term infrastructure delivery across diverse economies in Sub-Saharan Africa. Utilizing a threshold regression model framework, the research examines how varying structural indices of governance and institutional capacity shift the operational tipping points where public debt transfers from an infrastructural catalyst into a structural constraint. The project intends to offer clear empirical insights that can guide macro-level fiscal policies toward sustainable, growth-driven investment.</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <span class="item-title">Stock Exchange Performance and Economic Growth</span>
+                <p class="meta-text">Undergraduate Research Project</p> [cite: 33]
+                <p>An empirical assessment analyzing the dynamic transmission channels linking capital market capitalizations and transactional volumes with aggregate economic indicators, providing a structural view of financial market development within emerging economies[cite: 33].</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div>
+                <span class="item-title">Geospatial Data Collector</span> — <span class="institution">Ideamaps Data Ecosystem</span>
+                <p class="meta-text">June 2023 – Present | Kano, Nigeria</p> [cite: 19, 20]
+                <ul>
+                    <li>Executed end-to-end geospatial field data collection in structurally marginalized urban areas, leveraging digital data collection applications to catalog public amenities and infrastructural assets[cite: 23].</li>
+                    <li>Designed and co-facilitated localized community mapping workshops, assisting residents in defining their community developmental issues to enhance grass-roots project ownership[cite: 22].</li>
+                    <li>Served as a clear professional point of contact between community members and technical project coordinators to structure complex local requirements into useful datasets that inform target NGO and public interventions[cite: 21, 37].</li>
+                </ul>
+            </div>
+
+            <div style="margin-top: 20px;">
+                <span class="item-title">Volunteer (Assistant Graduate)</span> — <span class="institution">Federal University of Education, Kano</span>
+                <p class="meta-text">Academic Volunteer Work</p> [cite: 17]
+                <p>Provided foundational institutional support and research assistance to faculty, supporting data management and undergraduate research documentation reviews.</p>
+            </div>
+
+            <div style="margin-top: 20px;">
+                <span class="item-title">Class Teacher (NYSC)</span> — <span class="institution">Government Day Secondary School Ayama</span>
+                <p class="meta-text">2021 – 2022</p> [cite: 24]
+                <p>Managed regular classroom instruction, designed student performance evaluations, and collaborated actively with administrative bodies on institutional support initiatives[cite: 25, 26].</p>
+            </div>
+
+            <div style="margin-top: 20px;">
+                <span class="item-title">Tricycle Ticket Revenue Agent</span> — <span class="institution">Kano State Internal Revenue Service</span>
+                <p class="meta-text">Fiscal Operations Support</p> [cite: 27]
+                <p>Administered compliance processes for transport operational levies, generated structured field revenue records, and collaborated within a coordinated fiscal team to fulfill state revenue generation benchmarks[cite: 27, 28, 29].</p>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Simulations & Professional Certifications</h2>
             <ul>
-                <li>
-                    <span class="project-title">Public Debt and Infrastructural Development in Sub-Saharan Africa: Heterogeneous Threshold Effect Across Institutional Quality Dimensions</span>
-                    <p>An empirical investigation examining how variations in governance and institutional quality dictate the threshold level at which public debt accumulation influences infrastructural growth across diverse sub-Saharan economies.</p>
-                </li>
+                <li><strong>Audit & Assurance Simulation</strong> – KPMG Canada / Forage (2024) [cite: 8]</li>
+                <li><strong>Excel Skills for Business Simulation</strong> – Forage (2024) [cite: 9]</li>
+                <li><strong>Service Desk & Systems Simulation</strong> – Datacom / Forage (2025) [cite: 10]</li>
+                <li><strong>Foundations of Digital Marketing & E-commerce</strong> – Google / Coursera (2025) [cite: 12]</li>
+                <li><strong>Diploma in Data Processing & Information Technology</strong> – Kano City Computer Academy (2015) [cite: 13]</li>
             </ul>
+        </section>
+
+        <section id="cv">
+            <h2>Curriculum Vitae</h2>
+            <p>To access my full academic record, complete list of professional training, and institutional references, please download my comprehensive CV[cite: 3, 7, 42].</p>
+            <a href="CV_Mustapha_Adam_Khalid.pdf" class="cv-button" target="_blank">Download Full CV (PDF)</a>
         </section>
 
     </div>
